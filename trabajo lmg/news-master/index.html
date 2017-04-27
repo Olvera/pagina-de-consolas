@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemple de bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Descripció curta important. Descripció curta important. Descripció curta important."/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="css/a.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/news.js"></script>
+</head>
+<body>
+
+
+<div id="a" class="jumbotron text-center"><h1>Títol descriptiu</h1>
+    <br>
+    <div id="b" class="alert">
+    <p>Descripció curta important. Descripció curta important. Descripció curta important.</p>
+    <p>Més descripció curta important. Més descripció curta important. Més descripció curta important. </p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"><br>
+            <p class="g"><span class="glyphicon glyphicon-stats"></span></p>
+            <p id="nsocios">134 Coses</p>
+            <p id="nclubes">3432 Més coses</p>       
+        </div>
+        <div class="col-sm-4"><br>
+            <p class="g"><span class="glyphicon glyphicon-heart"></span></p>
+            <p>Per donar idées...</p>
+            <p>Selector de Comunitat Autònoma</p>
+            <button type="button" class="btn-lg btn-info" data-toggle="modal" data-target="#info"> información </button>
+        </div>
+        <div class="col-sm-4"><br>
+            <p class="g"><span class="glyphicon glyphicon-user"></span></p>
+            <p><input type="text" class="form-control" placeholder="usuari" required></p>
+            <p><input type="password" class="form-control" placeholder="password" required></p>
+            <button type="button" class="btn-lg btn-info"> entrar </button>
+        </div>
+    </div>    
+    <div class="row">
+        <div class="col"><br>
+            <h2>Les notícies:</h2>
+            <p>Això és cosa vostre...</p>
+          </div>
+    </div>
+</div>
+  
+<div class="container">
+  <p>Les imatges son ampliades fins un màxim (fins a la seva grandària natural o la grandària de l'element contenidor)</p>
+  <img id="imghorizontal" src="http://www.blirk.net/wallpapers/1280x720/beach-wallpaper-1.jpg" class="img-responsive center-block">
+  <br>
+  <img id="imgvertical" src="https://s-media-cache-ak0.pinimg.com/originals/ff/72/a9/ff72a9588259e60465dd490ba6686152.jpg" class="img-responsive center-block">
+</div>
+  
+
+<div id="info" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Selecciona tu Comunidad Autónoma</h4>
+      </div>
+      <div class="modal-body">
+          <select class="form-control" id="comunidades">
+              <option selected value="0">Selecciona...</option>
+          </select>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-lg btn-info" id="verinfo"> ver información </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<footer class="footer"> 
+    <div class="container"> 
+        <ul class="footer-links"> 
+            <li>Facebook</li> 
+            <li>About</li> 
+        </ul> 
+        <p>Developed by Miguel Urbina
+        </p> 
+    </div> 
+</footer></body></html>

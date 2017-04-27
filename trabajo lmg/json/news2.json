@@ -1,0 +1,23 @@
+[
+	{
+		"id": 4,
+		"cabecera":"Funciones principales de la versión 1.71 (con 1.70) del software del sistema",
+		"articulo":"Nuevo para 1.71:<br>Se mejoró la estabilidad del software del sistema durante el uso de algunas funciones.<br>Otras funciones nuevas o revisadas en la versión 1.70 <br>Compartir<br>- Ahora puedes seleccionar la duración de los videoclips que se guardarán. La duración puede ser 1, 3, 5, 10 o 15 minutos. Esta opción de configuración se encuentra en [Configuración de Compartir] > [Configuración de videoclips] > [Duración del videoclip].<br>- Se agregó Galería (Galería de capturas) al área de contenido. Puedes usar esta opción para ver las capturas de pantalla y los videoclips que hayas guardado.<br>- Las capturas de pantalla y los videoclips no se guardarán si seleccionas [Transmitir gameplay] en el menú de la función Compartir. Para guardar las capturas de pantalla, selecciona [Cargar captura de pantalla] o pulsa el botón . Para guardar los videoclips, selecciona [Cargar videoclip] o pulsa el botón .<br>- Ahora puedes definir el público en Facebook® para compartir tus capturas de pantalla y videoclips.<br>- [Configuración de Compartir] > [Configuración de videoclips] > [Indicar escenas bloqueadas para la grabación de video] ahora se activa de forma predeterminada.<br>- Se mejoró el diseño de la pantalla para el momento de la transmisión.<br>- [Detener transmisión] ahora se encuentra en [Configuración de transmisión].<br> Configuración <br>-[Idioma], [Administración de datos de Blu-ray Disc™] y [Permitir conexión a Internet] se agregaron en [Configuración de reproducción de video].<br>-[Configuración de entrada al sistema] e [Inicialización] > [Eliminar usuario] ahora se encuentran en el elemento [Usuarios] recientemente agregado.<br>-Ahora puedes establecer un protector de pantalla. Se agregó [Iniciar protector de pantalla] en [Sonido y pantalla].<br>-Ahora puedes compartir tu nombre real y foto de perfil con los amigos de confianza de tus amigos de confianza. Tus amigos de confianza son amigos que han aceptado tus solicitudes de nombre real, o amigos cuyas solicitudes de nombre real has aceptado. Esta configuración se encuentra en [PSNSM] > [Configuración de privacidad] > [Nombre real y foto de perfil].",
+		"reproduccion":"video1",
+		"ilustracio":"imagen1"
+	},
+	{
+		"id": 5,
+		"cabecera":"Acerca de la actualización del software del sistema de PlayStation®4 a la versión 1.70",
+		"articulo":"Funciones principales de la versión 1.70 del software del sistema <br> - Se agregó [SHAREfactory] al área de contenido. Puedes usar esta opción para agregar comentarios y etiquetas a los videoclips que se guardan en la consola PS4™. También puedes modificar la música y las imágenes de fondo de los videoclips.<br> - Ahora puedes copiar los videoclips y las capturas de pantalla guardados en la consola PS4™ a un dispositivo de almacenamiento USB.<br> - Se agregó [Mejor HD] como resolución admitida para las transmisiones realizadas por medio de Ustream o Twitch.<br> - Ahora puedes guardar tus transmisiones en servicios online. Para obtener más información, consulta el sitio web del servicio online.<br> - Ahora puedes ajustar el brillo de la barra luminosa del control DUALSHOCK®4. Se agregó [Brillo de la barra luminosa de DUALSHOCK 4] en Configuración (Configuración) > [Dispositivos] > [Controles].<br> -Se agregó [Activar HDCP] en Configuración (Configuración) > [Sistema].",
+		"reproduccion":"video1",
+		"ilustracio":"imagen1"
+	},
+	{
+		"id": 6,
+		"cabecera":"Versión 1.62 (con 1.61 y 1.60) del software del sistema de PlayStation®4",
+		"articulo":"Nuevo para 1.62<br> - Se mejoró la calidad de imagen de algunas aplicaciones.<br>Nuevo para 1.61:<br> - Se mejoró la estabilidad del software del sistema durante el uso de algunas funciones.<br>Nuevo para 1.60:<br>- Ahora es compatible con los auriculares estéreo inalámbricos (CECHYA-0080 / CECHYA-0083 / CECHYA-0086) y los auriculares estéreo (CECHYA-0088).<br>Ahora puedes silenciar el micrófono en PlayStation®Camera.",
+		"reproduccion":"video1",
+		"ilustracio":"imagen1"
+	}
+]
