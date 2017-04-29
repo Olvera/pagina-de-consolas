@@ -1,11 +1,25 @@
-var noticias;
+var archivosJSON = ["json/news1.json", "json/news2.json"];
+var limite = 0;
 
+/*
 $(document).ready(function(){
     $.getJSON( "json/news.json", function( jsonObject ) {
         ponerNoticias(jsonObject);
         noticias = jsonObject;
     });
 });
+*/
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() + window.innerHeight == $(document).height)
+        {
+            console.log("He llegado");
+        }
+    });
+});
+
+
 
 function ponerNoticias(json){
     var items = [];
