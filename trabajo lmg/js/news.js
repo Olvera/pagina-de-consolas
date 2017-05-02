@@ -1,13 +1,48 @@
-/*
-var noticias;
+var archivosJSON = ["json/news1.json", "json/news2.json"];
+var limite = 0;
 
+/*
 $(document).ready(function(){
-    $.getJSON( "json/news1.json", function( jsonObject ) {
+    $.getJSON( "json/news.json", function( jsonObject ) {
         ponerNoticias(jsonObject);
         noticias = jsonObject;
     });
 });
+*/
 
+
+$(window).scroll(function(){
+    if($(window).scrollTop() + $(window).height() == $(document).height())
+    {
+        cargarNoticias();
+    }
+});
+
+function cargarNoticias()
+{
+    if(limite < archivosJSON.length)
+    {
+        $.getJSON(archivosJSON[limite], function(jsonObject){
+            var items = [];
+            var str;
+            $.each(jsonObject, function(i, noticia){
+                str = "";
+                str += "<h2>" + noticia.cabecera + "</h2>";
+                str += "<p>" + noticia.articulo + "</p>";
+                items.push(str);
+            });
+
+            $( "<div/>", {
+                "class": "news-list",
+                html: items.join( "" )
+            }).appendTo( "#play4" );
+        });
+        limite++;
+    }
+}
+
+
+/*
 function ponerNoticias(json){
     var items = [];
     var str;

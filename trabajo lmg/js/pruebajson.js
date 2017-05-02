@@ -10,14 +10,36 @@ $(document).ready(function(){
 });
 */
 
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if($(window).scrollTop() + window.innerHeight == $(document).height)
-        {
-            console.log("He llegado");
-        }
-    });
+
+$(window).scroll(function(){
+    if($(window).scrollTop() + $(window).height() == $(document).height())
+    {
+        cargarNoticias();
+    }
 });
+
+function cargarNoticias()
+{
+    if(limite < archivosJSON.length)
+    {
+        $.getJSON(archivosJSON[limite], function(jsonObject){
+            var items = [];
+            var str;
+            $.each(jsonObject, function(i, noticia){
+                str = "";
+                str += "<h2>" + noticia.cabecera + "</h2>";
+                str += "<p>" + noticia.articulo + "</p>";
+                items.push(str);
+            });
+
+            $( "<div/>", {
+                "class": "news-list",
+                html: items.join( "" )
+            }).appendTo( "body" );
+        });
+        limite++;
+    }
+}
 
 
 
