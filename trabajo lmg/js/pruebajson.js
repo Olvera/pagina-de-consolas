@@ -10,13 +10,11 @@ $(document).ready(function(){
 });
 */
 
-
-$(window).scroll(function(){
-    if($(window).scrollTop() + $(window).height() == $(document).height())
-    {
-        cargarNoticias();
-    }
+$(document).ready(function(){
+    $("#cargar").on("click", cargarNoticias);
 });
+
+
 
 function cargarNoticias()
 {
@@ -38,6 +36,11 @@ function cargarNoticias()
             }).appendTo( "body" );
         });
         limite++;
+    }
+    if(limite >= archivosJSON.length)
+    {
+        $("#cargar").off("click", cargarNoticias);
+        $("#cargar").prop("disabled", true);
     }
 }
 
