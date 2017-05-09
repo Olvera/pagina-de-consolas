@@ -9,7 +9,6 @@ $(document).ready(function(){
     });
 });
 */
-
 $(document).ready(function(){
     $("#cargar").on("click", cargarNoticias);
     $(window).scrollTop(0);
@@ -33,7 +32,12 @@ function cargarNoticias()
                 str = "";
                 str += "<h2>" + noticia.cabecera + "</h2>";
                 str += "<p>" + noticia.articulo + "</p>";
+                str += "<img class='img-responsive' src=\"" + noticia.ilustracio +"\" />";
+                str += "<div class='embed-responsive embed-responsive-16by9'>";
+                str += "<iframe class='embed-responsive-item' src=" + noticia.video +"/>";
+                str += "</iframe></div>"
                 str += "<p>" + noticia.fecha_hora + "</p>";
+
                 items.push(str);
             });
 

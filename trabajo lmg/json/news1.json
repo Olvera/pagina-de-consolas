@@ -4,21 +4,25 @@
 		"cabecera":"Funciones principales de la actualización del software de sistema a la versión 2.01 (con 2.00)",
 		"articulo":"Nuevo para 2.01:<br> -Se mejoró la estabilidad del software del sistema cuando enciendes la consola y cuando se inicia el modo de reposo.<br> Otras funciones nuevas o revisadas en la versión 2.00<br>Compartir<br>-Se agregaron las siguientes funciones a  (En vivo desde PlayStation).<br>-Ahora puedes ver transmisiones antiguas.<br>-Ahora es posible filtrar las transmisiones por idioma. Una vez que visualices la lista de transmisiones, pulsa el botón OPTIONS y después selecciona [Idioma].<br>-Ahora puedes seguir a tus transmisores o canales favoritos.<br>-(Destacadas) se agregó. Puedes navegar por las transmisiones, como las transmisiones recomendadas para PlayStation®, las transmisiones de amigos y las transmisiones que sigues.<br>-Juegos (Juegos) se agregó. Se visualizan las transmisiones de cada juego.<br>-Ahora se pueden mostrar los iconos de Twitch™ en los comentarios.<br>-Se agregaron las siguientes opciones de configuración a las transmisiones. Una vez que visualices el menú Compartir, pulsa el botón OPTIONS y selecciona [Configuración de Compartir] > [Configuración de transmisión] > [Configuración avanzada].<br>-Ahora se pueden mostrar mensajes a los espectadores.<br>-Ahora puedes incluir chats de voz de un grupo en las transmisiones. La voz de un jugador se incluirá únicamente si la configuración para permitir la reproducción de la voz del jugador se encuentra activada en la configuración del grupo.<br>-Ahora puedes establecer opciones de configuración como el tamaño, el fondo y los efectos del contenido de video desde la PlayStation®Camera.<br> Al seleccionar [Cargar captura de pantalla] en el menú Compartir, puedes adjuntar una captura de pantalla a tu mensaje.<br> -Ahora puedes recortar tus videoclips en  (Galería de capturas).",
 		"fecha_hora":"video1",
-		"ilustracio":"img/miimagen.jpg"
+		"video":"https://www.youtube.com/embed/iKwSgau-mJY",
+		"ilustracio":"img/PS4201.jpg"
 	},
 	{
 		"id": 2,
 		"cabecera":"Acerca de la actualización del software del sistema de PlayStation®4 a la versión 2.00",
 		"articulo":"Funciones principales de la actualización del software de sistema a la versión 2.00<br> - Los jugadores de un grupo ahora pueden usar Compartir juego.<br>- A través de Compartir juego, dos jugadores del mismo grupo pueden compartir una pantalla del juego. El anfitrión (el usuario que inicia Compartir juego) y el invitado (el usuario que se une a Compartir juego) pueden jugar juntos al mismo juego mientras miran la misma pantalla, o bien el invitado puede reemplazar al anfitrión y usar la pantalla del juego del anfitrión.<br>- Para iniciar Compartir juego, selecciona Compartir juego en la pantalla del grupo. El uso de algunas funciones requiere una suscripción a PlayStation®Plus.",
 		"fecha_hora":"video1",
-		"ilustracio":"imagen1"
+		"video":"https://www.youtube.com/embed/Ap1feLxSyZ4?list=PLrDYwczDMKq6kUvhLXGhFrjmBlkU9Gwy4",
+		"ilustracio":"img/Ps4 2.00.jpg"
 	},
 
 	{
 		"id": 3,
-		"cabecera":"Acerca de la actualización del software del sistema de PlayStation®4 a la versión 1.75",
+		"cabecera":"Acerca de la actualización del software del sistema de PlayStation®4 a la versión 1.75 y ",
 		"articulo":"Funciones principales de la actualización del software de sistema a la versión 1.75<br>- Ahora es posible reproducir videos en Blu-ray 3D™.<br>- La calidad de sonido se ha mejorado durante la reproducción a 1.5x con videos en Blu-ray Disc™ y DVD.<br>- Los mensajes del sistema que antes aparecían en la esquina superior derecha de la pantalla ahora se muestran en la esquina superior izquierda.<br>- Se ha agregado [Contenido destacado] a Configuración (Configuración) > [Sistema] > [Cargas y descargas automáticas].<br> -Al activar esta configuración, el contenido destacado de PlayStation®Store se descargará automáticamente cuando la consola PS4™ esté encendida o en modo de espera. Para descargar contenido durante el modo de espera, ve a Configuración (Configuración) > [Configuración de ahorro de energía] > [Establecer funciones disponibles en modo de espera] y después activa [Conectarse a Internet]",
 		"fecha_hora":"video1",
-		"ilustracio":"imagen1"
+		"video":"https://www.youtube.com/embed/VblwI3joBys",
+
+		"ilustracio":"img/1.75fll.jpg"
 	}
 ]

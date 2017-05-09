@@ -64,3 +64,30 @@ label{
 	width:60%;}
 
 #cargar{margin-bottom: 100px;}
+
+main.general
+{
+	height: auto;
+}
+
+aside.publicidad
+{
+	float: right;
+	width: 300px;
+	height: 100%;
+}
+
+aside.publicidad img
+{
+	width: 100%;
+	padding: 0px 20px;
+	height: auto;
+}
+
+section.noticias
+{
+	width:100%;
+	margin-left: -300px;
+	height: auto;
+	float: right;
+}
