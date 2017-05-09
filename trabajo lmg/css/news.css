@@ -74,13 +74,13 @@ aside.publicidad
 {
 	float: right;
 	width: 300px;
-	height: auto;
+	height: 100%;
 }
 
 aside.publicidad img
 {
 	width: 100%;
-	padding: 0px 20px;
+
 	height: auto;
 }
 
