@@ -15,15 +15,6 @@
   </item>
 
    <item>
-    <title>Información de PS1</title>
-    <link>https://news1.html</link>
-    <description>información de la consola ps1</description>
-    <guid>https://news.html/xml/item0001</guid>
-    <author>consolaps1@sony.com (pepito)</author>
-    <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
-  </item>
-
-   <item>
     <title>Información de PS2</title>
     <link>https://news2.html</link>
     <description>información de la consola ps1</description>
