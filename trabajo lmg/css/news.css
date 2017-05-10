@@ -80,7 +80,7 @@ aside.publicidad
 aside.publicidad img
 {
 	width: 100%;
-	padding: 0px 20px;
+	padding: 0px 100px;
 	height: auto;
 }
 
@@ -90,5 +90,4 @@ section.noticias
 	margin-left: -300px;
 	height: auto;
 	float: right;
-	padding: 0 25px;
 }
