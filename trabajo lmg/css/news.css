@@ -80,14 +80,15 @@ aside.publicidad
 aside.publicidad img
 {
 	width: 100%;
-	height: 100%;
+	padding: 0px 20px;
+	height: auto;
 }
 
 section.noticias
 {
 	width:100%;
 	margin-left: -300px;
-	padding: 0px 100px;
 	height: auto;
 	float: right;
+	padding: 0 25px;
 }
