@@ -3,16 +3,16 @@
 
 <channel>
   <title>Mundo Consola</title>
-  <link>https://www.frikiconsola.es/</link>
+  <link>https://www.frikiconsola.es</link>
   <description>Free web building tutorials</description>
   <item>
     <title>Información de PS1</title>
-    <link>https://www.frikiconsola.es/Información-de-PS1</link>
+    <link>https://www.frikiconsola.es/Información_de_PS1</link>
     <description>New RSS tutorial on W3Schools</description>
   </item>
   <item>
     <title>Información de PS2</title>
-    <link>https://www.frikiconsola.es/Información-de-PS2</link>
+    <link>https://www.frikiconsola.es/Información_de_PS2</link>
     <description>New XML tutorial on W3Schools</description>
   </item>
 </channel>
