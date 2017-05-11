@@ -14,6 +14,7 @@
     <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
   </item>
 
+
    <item>
     <title>Información de PS2</title>
     <link>https://news2.html</link>
@@ -22,7 +23,6 @@
     <author>consolaps2@sony.com (pepito)</author>
     <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
   </item>
-  
 </channel>
 
 </rss>
