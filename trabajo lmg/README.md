@@ -7,6 +7,7 @@ Para realizar esta practica primero he tenido que crear el diseño de como quer�
 A continuación comenzare a explicar cada una de estas paginas:
 
  
+
 <b>creación de pagina news</b>
 
 para empezar colocare una imagen de como lo tengo echo en mi hoja ya que es la forma mas rápida de que vea como lo tengo organizado
