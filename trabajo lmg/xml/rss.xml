@@ -20,5 +20,13 @@
         <author>consultas@sony.com (pepito)</author>
         <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
       </item>
+      <item>
+        <title>Información de PS3</title>
+        <link>https://news3.html</link>
+        <description>información de la consola ps3</description>
+        <guid>https://news.html/xml/item0003</guid>
+        <author>consultas@sony.com (pepito)</author>
+        <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
+      </item>
   </channel>
 </rss>
