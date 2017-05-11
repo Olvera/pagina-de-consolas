@@ -10,7 +10,7 @@
     <link>https://news1.html</link>
     <description>resumen de las diferentes consolas</description>
     <guid>https://news.html/xml/item0001</guid>
-    <author>consolaps1@sony.com (pepito)</author>
+    <author>consultas@sony.com (pepito)</author>
     <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
   </item>
 
@@ -22,15 +22,7 @@
     <author>consolaps2@sony.com (pepito)</author>
     <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
   </item>
-
-  <item>
-    <title>Información de PS3</title>
-    <link>https://news3.html</link>
-    <description>información de la consola ps1</description>
-    <guid>https://news.html/xml/item0003</guid>
-    <author>consolaps3@sony.com (pepito)</author>
-    <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
-  </item>
+  
 </channel>
 
 </rss>
