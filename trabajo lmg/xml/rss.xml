@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-  <title>Información de PS</title>
-  <link>https://www.news.hmtml</link>
-  <description>Es una web que trata la evolución de la compañia Sony en el mundo de las consolas</description>
-
-  <item>
-    <title>Información de PS1</title>
-    <link>https://news1.html</link>
-    <description>resumen de las diferentes consolas</description>
-    <guid>https://news.html/xml/item0001</guid>
-    <author>consultas@sony.com (pepito)</author>
-    <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
-  </item>
-
-
-   <item>
-    <title>Información de PS2</title>
-    <link>https://news2.html</link>
-    <description>información de la consola ps1</description>
-    <guid>https://news.html/xml/item0002</guid>
-    <author>consolaps2@sony.com (pepito)</author>
-    <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
-  </item>
-</channel>
-
+  <channel>
+    <title>Información de PS</title>
+    <link>https://www.news.hmtml</link>
+    <description>Es una web que trata la evolución de la compañia Sony en el mundo de las consolas</description>
+      <item>
+        <title>Información de PS1</title>
+        <link>https://news1.html</link>
+        <description>resumen de las diferentes consolas</description>
+        <guid>https://news.html/xml/item0001</guid>
+        <author>consultas@sony.com (ostras)</author>
+        <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
+      </item>
+       <item>
+        <title>Información de PS2</title>
+        <link>https://news2.html</link>
+        <description>información de la consola ps2</description>
+        <guid>https://news.html/xml/item0002</guid>
+        <author>consultas@sony.com (pepito)</author>
+        <atom:link href="https://news.html/rss.xml" rel="self" type="application/rss+xml" />
+      </item>
+  </channel>
 </rss>
